@@ -1,0 +1,69 @@
+html a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* blog */
+.btn__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  max-width: 200px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  user-select: none;
+  line-height: 1.5em;
+  font-size: 18px;
+  outline: none;
+}
+.btn-green {
+  background-color: rgb(174, 228, 158);
+  color: #000;
+}
+.button:hover {
+  background-color: rgba(158, 228, 195, 0.397);
+  cursor: pointer;
+  transition: 1s all ease;
+}
+/* blog */
+
+/* add_article */
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.backBtn {
+  padding-top: 3px;
+}
+
+/* add_article */
+
+.postImg {
+  width: 100%;
+  height: 100%;
+  max-width: 540px;
+  max-height: 316;
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
